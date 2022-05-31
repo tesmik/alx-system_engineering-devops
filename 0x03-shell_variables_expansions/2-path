@@ -1,0 +1,6 @@
+#!/bin/bash
+cho 6>>2-path
+git add .
+
+echo cho $(printf $PATH | tr ":" "\n" | wc -w)
+echo $(printf $PATH | tr ":" "\n" | wc -w)
